@@ -29,6 +29,9 @@ dmenu \- dynamic menu
 .RB [ \-shb
 .IR color ]
 .RB [ \-shf
+.RB [ \-ob
+.IR color ]
+.RB [ \-of
 .IR color ]
 .RB [ \-w
 .IR windowid ]
@@ -102,6 +105,11 @@ defines the selected highlight background color.
 .TP
 .BI \-shf " color"
 defines the selected highlight foreground color.
+.BI \-ob " color"
+defines the outline background color (for multiple selection).
+.TP
+.BI \-of " color"
+defines the outline foreground color (for multiple selection).
 .TP
 .B \-v
 prints version information to stdout, then exits.
